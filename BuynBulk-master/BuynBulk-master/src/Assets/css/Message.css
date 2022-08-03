@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container2{
+    text-align: center;
+    justify-content: center;
+}
+.lin{
+    font-size: 32px;
+     font-style: bold;
+    letter-spacing: 3.5%;
+    color: #116530;
+}
+.pin{
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 3.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+}
+hr {
+    width: 90%;
+    border: 1px solid #000000;
+}
+.fin{
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 3.5%;
+    margin-bottom: 20px;
+}
+.min{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #116530;
+}

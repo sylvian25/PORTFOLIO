@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.contact-head{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+  
+    color: #116530;
+    justify-content: space-evenly;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    /* padding: 60px;
+    width: 1250; */
+    justify-content: center;
+    margin: 0 auto;
+}
+.contact-p{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 400px;
+    font-style: normal;
+
+    color: #606060;
+}
+.address-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-block: 20px; */
+}
+.address-header{
+    font-family: poppins;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+  
+    color:#116530;
+}
+.address-content{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+ 
+    letter-spacing:0,035em ;
+    color: #5A5A5A;
+}
+.Text-area-container{
+    width: 532px;
+    height: 450px;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+}
+.button2{
+    width: 121px;
+    height: 50px;
+    background-color: #116530;
+    border: 0;
+    outline: none;
+    background: #116530;
+    color: #ffff;
+    border: 0;
+    outline: none;
+    margin-top: -1em;
+    margin-left: -8em;
+    position: relative;
+    top: -16px;
+    left: -11px;
+
+
+}
+.Text-area{
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 40px;
+}

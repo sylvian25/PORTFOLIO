@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Contact-head{
+    Font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #116530;
+    justify-content: space-evenly;
+    
+
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    width:1250px;
+    justify-content: center;
+    
+
+}
+.contact-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #606060;
+
+}
+.Address-container{
+    display: flex;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.address-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #116530;
+
+}
+.address-content{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.035em;
+
+    color: #5A5A5A;
+}
+.Text-area-container{
+    width: 432px;
+    height: 517px;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+  
+}
+.btn{
+        width: 161px;
+        height: 62px;
+        background: #27AE60;
+        border: 0;
+        outline: none;
+        background: #139b57;
+        color:#ffff ;
+        border: 0;
+        outline: none;
+        margin-top: -6em;
+        margin-left: 14em;
+}
+.Text-area{
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .Contact-head{
+        font-weight: 500;
+        font-size: 44px;
+        color: #116530;
+        justify-content: space-evenly;
+        
+    
+    }
+  }

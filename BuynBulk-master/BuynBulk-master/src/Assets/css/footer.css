@@ -1,0 +1,42 @@
+.footerBrand{
+    align-items: center;
+    margin: auto 0;
+    /* height: 4rem; */
+    /* background-color: #116530; */
+
+}
+
+.started{
+    display: flex;
+    margin-left: auto;
+}
+.ready{
+    /* position: relative; */
+    margin: auto 0;
+}
+
+.foot{
+    display: flex;
+}
+.ul{
+    display: block;
+}
+.carrt{
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+}
+.hld-carrt{
+    background-color: #116530;
+    padding: 2em;
+}
+.footContainer{
+    width: 120rem;
+    
+    margin: 0 auto;
+    /* background-color: #116530; */
+    
+}
+.evert {
+
+}
